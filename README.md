@@ -10,7 +10,8 @@ so you can chose similar but larger for example it could be MX25L256(blahblah), 
 ![IMG20230907220114](https://github.com/jagmic/wndr3700_flash_replacement/assets/127594403/96a3cb31-d826-4c90-8e78-ab40c1d3f152)
 In OS Linux you can do this flashrom, but if you feel not comfortable without GUI please use something like CH341A programmer, Neo programmer etc... 
 ![Ch341a-New-Update](https://github.com/jagmic/wndr3700_flash_replacement/assets/127594403/917b75cc-2b0b-46f2-9fc0-847a103fa943)
-  there is a lot of software on websites and all are user friendly so even if you dont know anything about electronic it will be peace of cake for you I hope.
+
+there is a lot of software on websites and all are user friendly so even if you dont know anything about electronic it will be peace of cake for you I hope.
 5. You can't forget make some copy all significant partitions especially art.bin. It's important because without this your wifi module will not work. Luci shares possibility copy all created by kernel partitions in mtd format via website so making this is easy . If you like konsole you can use command:
 ssh root@IP_address "dd if=/dev/mtd6" | of=art.bin
 6. When all this steps was made by you can start proper hardware replacement : 
