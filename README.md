@@ -13,8 +13,8 @@ In OS Linux you can do this flashrom, but if you feel not comfortable without GU
 5. You can't forget make some copy all significant partitions especially art.bin. It's important because without this your wifi module will not work. Luci shares possibility copy all created by kernel partitions in mtd format via website so making this is easy . If you like konsole you can use command:
 ssh root@IP_address "dd if=/dev/mtd6" | of=art.bin
 6. When all this steps was made by you can start proper hardware replacement : 
-a) Use screw for open router cover - photo nr 1
-b) Wait for proper tempearature you soldering iron and using topnic warm up all pins your nand flash and lift it up - photo nr 2
+a. Use screw for open router cover
+b. Wait for proper tempearature you soldering iron and using topnic warm up all pins your nand flash and lift it up - photo nr 2
 c) When all are ready put it inside programmer and read all memory from flash. Save it and give it name
 d) After this steps put new one flash to your programmer and write all data from previous step
 e) Your last one task is soldering new one flash back to router and close cover.
