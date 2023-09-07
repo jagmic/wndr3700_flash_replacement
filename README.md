@@ -2,7 +2,9 @@
 Have you ever thinked about a little bit improve your old WNDR3700 from Netgear ? 
 It is the way how to do that using a new one nor flash. But first we have to make some backup date from your old flash memory. What we can gain ? WNDR3700 is very good device and with combination with openwrt you can configure as you like. But new one compilation of openwrt uses much more space therefore if you think about numerous modules your flash space will be not enaugh. Let's start.
 1. What do you need :
-Flash for replacemnt. Probably your router consist flash Macronix MX25L6405DMI-12G so you can chose similar but larger for example it could be MX25L256(blahblah), MX25L128(blahblahblah) etc. Organisation of memory must be the same like old one. If you have some troubles please check datasheet on website.
+Flash for replacemnt. Probably your router consist flash Macronix MX25L6405DMI-12G ![IMG20230711195415](https://github.com/jagmic/wndr3700_flash_replacement/assets/127594403/23188cb8-88ac-42ad-aefa-a22cfdd16cc8)
+
+so you can chose similar but larger for example it could be MX25L256(blahblah), MX25L128(blahblahblah) etc. Organisation of memory must be the same like old one. If you have some troubles please check datasheet on website.
 3. Soldering iron, tin with some topnic and if it is your first time a lot patient
 4. Programmator - I used CH341A chip and additionaly some SW for that.   In OS Linux you can do this flashrom, but if you feel not comfortable without GUI please use something like CH341A programmer, Neo programmer etc... there is a lot of software on websites and all are user friendly so even if you dont know anything about electronic it will be peace of cake for you I hope.
 5. You can't forget make some copy all significant partitions especially art.bin. It's important because without this your wifi module will not work. Luci shares possibility copy all created by kernel partitions in mtd format via website so making this is easy . If you like konsole you can use command:
