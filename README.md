@@ -4,6 +4,7 @@ It is the way how to do that using a new one nor flash. But first we have to mak
 1. What do you need :
 Flash for replacemnt. Probably your router consist flash Macronix MX25L6405DMI-12G
 ![IMG20230711195415](https://github.com/jagmic/wndr3700_flash_replacement/assets/127594403/23188cb8-88ac-42ad-aefa-a22cfdd16cc8)
+
 so you can chose similar but larger for example it could be MX25L256(blahblah), MX25L128(blahblahblah) etc. Organisation of memory must be the same like old one. If you have some troubles please check datasheet on website.
 3.  Soldering iron, tin with some topnic and if it is your first time a lot patient
 4. Programmator - I used CH341A chip and additionaly some SW for that. 
