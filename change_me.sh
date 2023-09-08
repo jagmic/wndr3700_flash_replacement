@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "This script will help you rebuild specifis dtf file for your compilation.Please enter new size memory in MB"
+echo "This script will help you rebuild specifis dts file for your compilation.Please enter new size memory in MB"
 read memory
 if (( $memory == 32 ))
 then
