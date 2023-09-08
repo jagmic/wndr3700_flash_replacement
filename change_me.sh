@@ -6,7 +6,7 @@ then
 echo "32"
 sed -i 's/0x780000/0x1f80000/g;s/7f0000/1ff0000/' $(find ~ -name "ar7161_netgear_wndr3700.dts")
 elif (( $memory == 64 ))
-then "64"
+then echo"64"
 sed -i 's/0x780000/0x3f80000/g;s/7f0000/3ff0000/' $(find ~ -name "ar7161_netgear_wndr3700.dts")
 elif (( $memory == 16 ))
 then
